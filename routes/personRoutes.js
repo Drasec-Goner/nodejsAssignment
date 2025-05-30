@@ -34,7 +34,7 @@ router.get('/', async (req, res) => {
 });
 
 // GET /person/new: Displays a form to create a single person
-router.get('/new', (req, res) => {
+router.get('/add', (req, res) => {
   res.send(`
     <h1>Add Person</h1>
     <form method="POST" action="/person">
